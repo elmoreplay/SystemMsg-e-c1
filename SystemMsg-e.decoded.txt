@@ -1,0 +1,778 @@
+﻿msg_begin	id=0	group=[server]	msg=[Disconnected]	msg_end
+msg_begin	id=1	group=[server]	msg=[The server will be disconnected in $s1 seconds]	msg_end
+msg_begin	id=2	group=[none]	msg=[$s1 does not exist]	msg_end
+msg_begin	id=3	group=[none]	msg=[$s1 is not logged in]	msg_end
+msg_begin	id=4	group=[none]	msg=[You cannot ask yourself to apply to a clan]	msg_end
+msg_begin	id=5	group=[none]	msg=[$s1 already exists]	msg_end
+msg_begin	id=6	group=[none]	msg=[$s1 does not exist]	msg_end
+msg_begin	id=7	group=[none]	msg=[You already belong to $s1]	msg_end
+msg_begin	id=8	group=[none]	msg=[You are working with another clan]	msg_end
+msg_begin	id=9	group=[none]	msg=[$s1 is not a clan leader]	msg_end
+msg_begin	id=10	group=[none]	msg=[$s1 is working with another clan]	msg_end
+msg_begin	id=11	group=[none]	msg=[There are no applicants for this clan]	msg_end
+msg_begin	id=12	group=[none]	msg=[Applicant information is incorrect]	msg_end
+msg_begin	id=13	group=[none]	msg=[Unable to disperse: your clan has requested to participate in a castle siege]	msg_end
+msg_begin	id=14	group=[none]	msg=[Unable to disperse: your clan owns one or more castles or hideouts]	msg_end
+msg_begin	id=15	group=[none]	msg=[You are in siege]	msg_end
+msg_begin	id=16	group=[none]	msg=[You are not in siege]	msg_end
+msg_begin	id=17	group=[none]	msg=[Castle siege has begun]	msg_end
+msg_begin	id=18	group=[none]	msg=[Castle siege is over]	msg_end
+msg_begin	id=19	group=[none]	msg=[The castellan has been changed!]	msg_end
+msg_begin	id=20	group=[none]	msg=[The gate is being opened]	msg_end
+msg_begin	id=21	group=[none]	msg=[The gate is being destroyed]	msg_end
+msg_begin	id=22	group=[none]	msg=[]	msg_end
+msg_begin	id=23	group=[none]	msg=[--------NO HP--------]	msg_end
+msg_begin	id=24	group=[none]	msg=[--------NO MP--------]	msg_end
+msg_begin	id=25	group=[none]	msg=[Rejuvenating HP]	msg_end
+msg_begin	id=26	group=[none]	msg=[Rejuvenating MP]	msg_end
+msg_begin	id=27	group=[none]	msg=[SKILL INTERRUPTED]	msg_end
+msg_begin	id=28	group=[none]	msg=[++++++++++++++++++++++++++ $s1 adena]	msg_end
+msg_begin	id=29	group=[none]	msg=[++++++++++++++++++++++++++ $s2 $s1]	msg_end
+msg_begin	id=30	group=[none]	msg=[++++++++++++++++++++++++++ $s1]	msg_end
+msg_begin	id=31	group=[none]	msg=[STAND UP BEFORE RUN ]	msg_end
+msg_begin	id=32	group=[none]	msg=[You are not capable of combat Move to the nearest restart point]	msg_end
+msg_begin	id=33	group=[none]	msg=[You cannot move when using magic]	msg_end
+msg_begin	id=34	group=[server]	msg=[]	msg_end
+msg_begin	id=35	group=[damage]	msg=[-------------> $s1]	msg_end
+msg_begin	id=36	group=[damage]	msg=[$s1 ---------- $s2]	msg_end
+msg_begin	id=37	group=[damage]	msg=[$s1 ---------- $s2]	msg_end
+msg_begin	id=38	group=[none]	msg=[The TGS2002 event begins!]	msg_end
+msg_begin	id=39	group=[none]	msg=[The TGS2002 event is over Thank you very much]	msg_end
+msg_begin	id=40	group=[none]	msg=[This is the TGS demo: the character will immediately be restored]	msg_end
+msg_begin	id=41	group=[battle]	msg=[]	msg_end
+msg_begin	id=42	group=[battle]	msg=[$s1 ---------- Avoided]	msg_end
+msg_begin	id=43	group=[battle]	msg=[-------------> Missed]	msg_end
+msg_begin	id=44	group=[battle]	msg=[-------------> Critical]	msg_end
+msg_begin	id=45	group=[none]	msg=[========================== $s1 epx]	msg_end
+msg_begin	id=46	group=[none]	msg=[Use $s1]	msg_end
+msg_begin	id=47	group=[none]	msg=[Using $s1]	msg_end
+msg_begin	id=48	group=[none]	msg=[]	msg_end
+msg_begin	id=49	group=[none]	msg=[EQUIPTED $s1]	msg_end
+msg_begin	id=50	group=[none]	msg=[Target can not be found]	msg_end
+msg_begin	id=51	group=[none]	msg=[You cannot use this on yourself]	msg_end
+msg_begin	id=52	group=[none]	msg=[++++++++++++++++++++++++++ $s1 adena]	msg_end
+msg_begin	id=53	group=[none]	msg=[++++++++++++++++++++++++++ $s2 $s1(s)]	msg_end
+msg_begin	id=54	group=[none]	msg=[++++++++++++++++++++++++++ $s1]	msg_end
+msg_begin	id=55	group=[none]	msg=[Failed to pick up $s1 adena]	msg_end
+msg_begin	id=56	group=[none]	msg=[Failed to pick up $s1]	msg_end
+msg_begin	id=57	group=[none]	msg=[Failed to pick up $s2 $s1(s)]	msg_end
+msg_begin	id=58	group=[none]	msg=[Failed to earn $s1 adena]	msg_end
+msg_begin	id=59	group=[none]	msg=[Failed to earn $s1]	msg_end
+msg_begin	id=60	group=[none]	msg=[Failed to earn $s2 $s1(s)]	msg_end
+msg_begin	id=61	group=[none]	msg=[Nothing happened]	msg_end
+msg_begin	id=62	group=[none]	msg=[$s1 has been successfully enchanted]	msg_end
+msg_begin	id=63	group=[none]	msg=[+$s1$s2 has been successfully enchanted]	msg_end
+msg_begin	id=64	group=[none]	msg=[Enchantment has failed $s1 has been evaporated]	msg_end
+msg_begin	id=65	group=[none]	msg=[Enchantment has failed+$s1$s2 has been evaporated]	msg_end
+msg_begin	id=66	group=[popup]	msg=[$s1 has invited you to his/her party Do you accept the invitation?]	msg_end
+msg_begin	id=67	group=[popup]	msg=[$s1 has invited you to the $s2 Clan Do you want to join?]	msg_end
+msg_begin	id=68	group=[popup]	msg=[Withdraw from the $s1 Clan Do you want to continue?]	msg_end
+msg_begin	id=69	group=[popup]	msg=[Expel $s1 from the clan Do you want to continue?]	msg_end
+msg_begin	id=70	group=[popup]	msg=[Disperse the $s1 Clan Do you want to continue?]	msg_end
+msg_begin	id=71	group=[popup]	msg=[How many $s1(s) do you want to discard?]	msg_end
+msg_begin	id=72	group=[popup]	msg=[How many $s1(s) do you want to move?]	msg_end
+msg_begin	id=73	group=[popup]	msg=[How many $s1(s) do you want to destroy?]	msg_end
+msg_begin	id=74	group=[popup]	msg=[Destroy $s1 Do you want to continue?]	msg_end
+msg_begin	id=75	group=[none]	msg=[ID does not exist]	msg_end
+msg_begin	id=76	group=[none]	msg=[Incorrect password]	msg_end
+msg_begin	id=77	group=[none]	msg=[You cannot create another character Please delete the existing character and try again]	msg_end
+msg_begin	id=78	group=[popup]	msg=[Do you want to delete $s1?]	msg_end
+msg_begin	id=79	group=[none]	msg=[Name already exists]	msg_end
+msg_begin	id=80	group=[none]	msg=[Please insert 1~16 English characters]	msg_end
+msg_begin	id=81	group=[none]	msg=[Please select your race]	msg_end
+msg_begin	id=82	group=[none]	msg=[Please select your occupation]	msg_end
+msg_begin	id=83	group=[none]	msg=[Please select your gender]	msg_end
+msg_begin	id=84	group=[none]	msg=[]	msg_end
+msg_begin	id=85	group=[none]	msg=[]	msg_end
+msg_begin	id=86	group=[none]	msg=[Please insert your ID]	msg_end
+msg_begin	id=87	group=[none]	msg=[Please insert your password]	msg_end
+msg_begin	id=88	group=[none]	msg=[Protocol version is different Please quit the program]	msg_end
+msg_begin	id=89	group=[none]	msg=[Protocol version is different Please continue]	msg_end
+msg_begin	id=90	group=[none]	msg=[Unable to connect to server]	msg_end
+msg_begin	id=91	group=[none]	msg=[Please select your hairstyle]	msg_end
+msg_begin	id=92	group=[none]	msg=[]	msg_end
+msg_begin	id=93	group=[none]	msg=[--------NO SP--------]	msg_end
+msg_begin	id=94	group=[none]	msg=[Copyright 2002 NCsoft Corporation All Rights Reserved]	msg_end
+msg_begin	id=95	group=[none]	msg=[========================== $s1 exp, $s2 SP]	msg_end
+msg_begin	id=96	group=[none]	msg=[LEVEL UP BITCH!..]	msg_end
+msg_begin	id=97	group=[none]	msg=[Quest items cannot be moved]	msg_end
+msg_begin	id=98	group=[none]	msg=[Quest items cannot be discarded or destroyed]	msg_end
+msg_begin	id=99	group=[none]	msg=[Quest items cannot be traded or sold]	msg_end
+msg_begin	id=100	group=[popup]	msg=[$s1 requests a trade Do you want to trade?]	msg_end
+msg_begin	id=101	group=[none]	msg=[You cannot logout while in combat]	msg_end
+msg_begin	id=102	group=[none]	msg=[You cannot restart while in combat]	msg_end
+msg_begin	id=103	group=[none]	msg=[ID is logged in]	msg_end
+msg_begin	id=104	group=[none]	msg=[You cannot use equipment when using other skills or magic]	msg_end
+msg_begin	id=105	group=[none]	msg=[You have invited $s1 to your party]	msg_end
+msg_begin	id=106	group=[none]	msg=[You have joined $s1's party]	msg_end
+msg_begin	id=107	group=[none]	msg=[$s1 has joined the party]	msg_end
+msg_begin	id=108	group=[none]	msg=[$s1 has left the party]	msg_end
+msg_begin	id=109	group=[none]	msg=[Incorrect target]	msg_end
+msg_begin	id=110	group=[none]	msg=[]	msg_end
+msg_begin	id=111	group=[battle]	msg=[-------------> Shield block]	msg_end
+msg_begin	id=112	group=[none]	msg=[--------NO ARROWS--------]	msg_end
+msg_begin	id=113	group=[none]	msg=[$s1 cannot be used due to unsuitable terms]	msg_end
+msg_begin	id=114	group=[none]	msg=[Enter the shadow of the World Tree]	msg_end
+msg_begin	id=115	group=[none]	msg=[Exit the shadow of the World Tree]	msg_end
+msg_begin	id=116	group=[none]	msg=[Entering the peace zone]	msg_end
+msg_begin	id=117	group=[none]	msg=[Exiting the peace zone]	msg_end
+msg_begin	id=118	group=[none]	msg=[Request $s1 for trade]	msg_end
+msg_begin	id=119	group=[none]	msg=[$s1 denied your request for trade]	msg_end
+msg_begin	id=120	group=[none]	msg=[Begin trading with $s1]	msg_end
+msg_begin	id=121	group=[none]	msg=[$s1 confirmed trade]	msg_end
+msg_begin	id=122	group=[none]	msg=[You cannot move additional items because trade has been confirmed]	msg_end
+msg_begin	id=123	group=[none]	msg=[Trade has been successful]	msg_end
+msg_begin	id=124	group=[none]	msg=[$s1 cancelled trade]	msg_end
+msg_begin	id=125	group=[popup]	msg=[Quit game Do you want to continue?]	msg_end
+msg_begin	id=126	group=[popup]	msg=[Restart the game Do you want to continue?]	msg_end
+msg_begin	id=127	group=[popup]	msg=[Your connection has been disconnected from the server Please try again]	msg_end
+msg_begin	id=128	group=[none]	msg=[You have failed to create a character]	msg_end
+msg_begin	id=129	group=[none]	msg=[Inventory slot is full]	msg_end
+msg_begin	id=130	group=[popup]	msg=[Warehouse slot is full]	msg_end
+msg_begin	id=131	group=[none]	msg=[FRIEND ONLINE - $s1 ]	msg_end
+msg_begin	id=132	group=[none]	msg=[$s1 has been added to your friend list]	msg_end
+msg_begin	id=133	group=[none]	msg=[$s1 has been removed from your friend list]	msg_end
+msg_begin	id=134	group=[none]	msg=[Please check your friend list again]	msg_end
+msg_begin	id=135	group=[none]	msg=[$s1 did not reply to your invitation: party invitation has been cancelled]	msg_end
+msg_begin	id=136	group=[none]	msg=[You did not reply to $s1's invitation: joining has been cancelled]	msg_end
+msg_begin	id=137	group=[none]	msg=[There are no more items in the shortcut]	msg_end
+msg_begin	id=138	group=[none]	msg=[Designate shortcut]	msg_end
+msg_begin	id=139	group=[none]	msg=[$s1 RESISTED YOUR $s2]	msg_end
+msg_begin	id=140	group=[none]	msg=[Skill was removed due to lack of MP]	msg_end
+msg_begin	id=141	group=[none]	msg=[If trade is confirmed, the item cannot be moved again]	msg_end
+msg_begin	id=142	group=[none]	msg=[Already trading]	msg_end
+msg_begin	id=143	group=[none]	msg=[$s1 is trading with another person]	msg_end
+msg_begin	id=144	group=[none]	msg=[Target is incorrect]	msg_end
+msg_begin	id=145	group=[none]	msg=[Target is not found in the game]	msg_end
+msg_begin	id=146	group=[popup]	msg=[Chatting is permitted]	msg_end
+msg_begin	id=147	group=[popup]	msg=[Chatting is prohibited]	msg_end
+msg_begin	id=148	group=[none]	msg=[You cannot use quest items]	msg_end
+msg_begin	id=149	group=[none]	msg=[You cannot use items while trading]	msg_end
+msg_begin	id=150	group=[none]	msg=[You cannot discard or destroy items while trading]	msg_end
+msg_begin	id=151	group=[none]	msg=[Too far to discard]	msg_end
+msg_begin	id=152	group=[none]	msg=[Wrong target has been invited]	msg_end
+msg_begin	id=153	group=[none]	msg=[$s1 is busy Please try again later]	msg_end
+msg_begin	id=154	group=[none]	msg=[Only the leader can give out invitations]	msg_end
+msg_begin	id=155	group=[none]	msg=[Party is full]	msg_end
+msg_begin	id=156	group=[none]	msg=[Drain was only half successful]	msg_end
+msg_begin	id=157	group=[none]	msg=[You resisted $s1's drain]	msg_end
+msg_begin	id=158	group=[none]	msg=[ATACK FAILED]	msg_end
+msg_begin	id=159	group=[none]	msg=[RESISTED MAGIC $s1's]	msg_end
+msg_begin	id=160	group=[none]	msg=[$s1 is a member of another party and cannot be invited]	msg_end
+msg_begin	id=161	group=[none]	msg=[The user you invited is not online]	msg_end
+msg_begin	id=162	group=[none]	msg=[Warehouse is too far]	msg_end
+msg_begin	id=163	group=[none]	msg=[You cannot destroy it because the number is incorrect]	msg_end
+msg_begin	id=164	group=[none]	msg=[Waiting for another reply]	msg_end
+msg_begin	id=165	group=[none]	msg=[You cannot add yourself to your own friend list]	msg_end
+msg_begin	id=166	group=[none]	msg=[Friend list is not ready yet Please register again later]	msg_end
+msg_begin	id=167	group=[none]	msg=[$s1 is already on your friend list]	msg_end
+msg_begin	id=168	group=[none]	msg=[$s1 has requested to become friends]	msg_end
+msg_begin	id=169	group=[none]	msg=[Accept friendship 0/1 (1 to accept, 0 to deny)]	msg_end
+msg_begin	id=170	group=[none]	msg=[The user who requested to become friends is not found in the game]	msg_end
+msg_begin	id=171	group=[none]	msg=[$s1 is not on your friend list]	msg_end
+msg_begin	id=172	group=[popup]	msg=[You have no money to pay for custody]	msg_end
+msg_begin	id=173	group=[popup]	msg=[You don't have enough money to pay for custody]	msg_end
+msg_begin	id=174	group=[popup]	msg=[The person's inventory is full]	msg_end
+msg_begin	id=175	group=[none]	msg=[HP was fully recovered, and skill was removed]	msg_end
+msg_begin	id=176	group=[none]	msg=[The person is in a message refusal mode]	msg_end
+msg_begin	id=177	group=[none]	msg=[Message refusal mode]	msg_end
+msg_begin	id=178	group=[none]	msg=[Message acceptance mode]	msg_end
+msg_begin	id=179	group=[none]	msg=[You cannot discard items here]	msg_end
+msg_begin	id=180	group=[popup]	msg=[You have $s1 day(s) left until deletion Do you want to cancel deletion?]	msg_end
+msg_begin	id=181	group=[none]	msg=[Cannot see target]	msg_end
+msg_begin	id=182	group=[none]	msg=[Do you want to quit the current quest?]	msg_end
+msg_begin	id=183	group=[server]	msg=[There are too many users on the server Please try again later]	msg_end
+msg_begin	id=184	group=[none]	msg=[Please try again later]	msg_end
+msg_begin	id=185	group=[none]	msg=[Select user to invite to your party]	msg_end
+msg_begin	id=186	group=[none]	msg=[Select user to invite to your clan]	msg_end
+msg_begin	id=187	group=[none]	msg=[Select user to expel]	msg_end
+msg_begin	id=188	group=[popup]	msg=[Create clan name]	msg_end
+msg_begin	id=189	group=[none]	msg=[Clan has been created]	msg_end
+msg_begin	id=190	group=[none]	msg=[You have failed to create a clan]	msg_end
+msg_begin	id=191	group=[none]	msg=[Clan member $s1 has been expelled]	msg_end
+msg_begin	id=192	group=[none]	msg=[You have failed to expel $s1 from the clan]	msg_end
+msg_begin	id=193	group=[none]	msg=[Clan has dispersed]	msg_end
+msg_begin	id=194	group=[none]	msg=[You have failed to disperse the Clan]	msg_end
+msg_begin	id=195	group=[none]	msg=[Entered the clan]	msg_end
+msg_begin	id=196	group=[none]	msg=[$s1 refused to join the clan]	msg_end
+msg_begin	id=197	group=[none]	msg=[Withdrawn from the clan]	msg_end
+msg_begin	id=198	group=[none]	msg=[You have failed to withdraw from the $s1 Clan]	msg_end
+msg_begin	id=199	group=[none]	msg=[Membership to this clan has been terminated]	msg_end
+msg_begin	id=200	group=[none]	msg=[You have withdrawn from the party]	msg_end
+msg_begin	id=201	group=[none]	msg=[$s1 was expelled from the party]	msg_end
+msg_begin	id=202	group=[none]	msg=[You have been expelled from the party]	msg_end
+msg_begin	id=203	group=[none]	msg=[The party has dispersed ]	msg_end
+msg_begin	id=204	group=[none]	msg=[Incorrect name Please try again ]	msg_end
+msg_begin	id=205	group=[none]	msg=[Incorrect character name Please ask the GM]	msg_end
+msg_begin	id=206	group=[popup]	msg=[Enter name of clan to declare war on]	msg_end
+msg_begin	id=207	group=[popup]	msg=[$s2 of the $s1 Clan requests declaration of war Do you accept?]	msg_end
+msg_begin	id=208	group=[popup]	msg=[Please include file type when entering file path]	msg_end
+msg_begin	id=209	group=[none]	msg=[The size of the image file is different Please adjust to 16*12]	msg_end
+msg_begin	id=210	group=[none]	msg=[Cannot find file Please enter precise path]	msg_end
+msg_begin	id=211	group=[none]	msg=[Can only register 16*12 sized bmp files of 256 colors]	msg_end
+msg_begin	id=212	group=[none]	msg=[You are not a clan member]	msg_end
+msg_begin	id=213	group=[none]	msg=[Not working Please try again later]	msg_end
+msg_begin	id=214	group=[none]	msg=[Title has changed]	msg_end
+msg_begin	id=215	group=[none]	msg=[War with the $s1 Clan has begun]	msg_end
+msg_begin	id=216	group=[none]	msg=[War with the $s1 Clan has ended ]	msg_end
+msg_begin	id=217	group=[none]	msg=[You have won the war over the $s1 Clan!]	msg_end
+msg_begin	id=218	group=[none]	msg=[You have surrendered to the $s1 Clan]	msg_end
+msg_begin	id=219	group=[none]	msg=[Your clan leader has diedYou have been defeated by the $s1 Clan]	msg_end
+msg_begin	id=220	group=[none]	msg=[You have $s1 minutes left until the clan war ends ]	msg_end
+msg_begin	id=221	group=[none]	msg=[The time limit for the clan war is upWar with the $s1 Clan is over ]	msg_end
+msg_begin	id=222	group=[none]	msg=[$s1 has newly joined the clan]	msg_end
+msg_begin	id=223	group=[none]	msg=[$s1 has withdrawn from the clan ]	msg_end
+msg_begin	id=224	group=[none]	msg=[$s1 did not respond: Invitation to the clan has been cancelled]	msg_end
+msg_begin	id=225	group=[none]	msg=[You didn't respond to $s1's invitation: joining has been cancelled]	msg_end
+msg_begin	id=226	group=[none]	msg=[The $s1 Clan did not respond: war proclamation has been refused]	msg_end
+msg_begin	id=227	group=[none]	msg=[Clan war has been refused because you did not respond to $s1 Clan’s war proclamation]	msg_end
+msg_begin	id=228	group=[none]	msg=[Request to end war has been denied ]	msg_end
+msg_begin	id=229	group=[none]	msg=[You are not qualified to create a clan]	msg_end
+msg_begin	id=230	group=[none]	msg=[You cannot create a new clan within 10 days of dispersion]	msg_end
+msg_begin	id=231	group=[none]	msg=[A new member cannot join within 5 days of a clan member's expulsion ]	msg_end
+msg_begin	id=232	group=[none]	msg=[You cannot join a clan within 5 days of expulsion or withdrawal]	msg_end
+msg_begin	id=233	group=[none]	msg=[The clan is full and cannot accept new members]	msg_end
+msg_begin	id=234	group=[none]	msg=[The target must be a clan member]	msg_end
+msg_begin	id=235	group=[none]	msg=[You cannot transfer your rights]	msg_end
+msg_begin	id=236	group=[none]	msg=[Only the clan leader is enabled]	msg_end
+msg_begin	id=237	group=[none]	msg=[Cannot find clan leader]	msg_end
+msg_begin	id=238	group=[none]	msg=[Not joined in any clan]	msg_end
+msg_begin	id=239	group=[none]	msg=[The clan leader cannot withdraw]	msg_end
+msg_begin	id=240	group=[none]	msg=[Currently involved in clan war]	msg_end
+msg_begin	id=241	group=[none]	msg=[Leader of the $s1 Clan is not logged in]	msg_end
+msg_begin	id=242	group=[none]	msg=[Select target]	msg_end
+msg_begin	id=243	group=[none]	msg=[Cannot proclaim war on allied clans]	msg_end
+msg_begin	id=244	group=[none]	msg=[Unqualified to request declaration of clan war]	msg_end
+msg_begin	id=245	group=[popup]	msg=[5 days has not passed since you were refused war Do you want to continue?]	msg_end
+msg_begin	id=246	group=[none]	msg=[The other clan is currently at war]	msg_end
+msg_begin	id=247	group=[none]	msg=[You have already been at war with the $s1 Clan: 5 days must pass before you can proclaim war again]	msg_end
+msg_begin	id=248	group=[none]	msg=[You cannot proclaim war: the $s1 Clan does not have enough members]	msg_end
+msg_begin	id=249	group=[popup]	msg=[Do you wish to surrender to the $s1 Clan?]	msg_end
+msg_begin	id=250	group=[none]	msg=[You have personally surrendered to the $s1 Clan You are leaving the clan war]	msg_end
+msg_begin	id=251	group=[none]	msg=[You cannot proclaim war: you are at war with another clan]	msg_end
+msg_begin	id=252	group=[popup]	msg=[Enter the name of clan to surrender to]	msg_end
+msg_begin	id=253	group=[popup]	msg=[Enter the name of clan to request end of war]	msg_end
+msg_begin	id=254	group=[none]	msg=[Clan leader cannot surrender personally]	msg_end
+msg_begin	id=255	group=[popup]	msg=[The $s1 Clan has requested to end war Do you agree?]	msg_end
+msg_begin	id=256	group=[none]	msg=[Enter name]	msg_end
+msg_begin	id=257	group=[popup]	msg=[Do you propose to the $s1 Clan to end the war?]	msg_end
+msg_begin	id=258	group=[none]	msg=[Not involved in clan war]	msg_end
+msg_begin	id=259	group=[none]	msg=[Select clan members from list]	msg_end
+msg_begin	id=260	group=[none]	msg=[Fame level has decreased: 5 days have not passed since you were refused war]	msg_end
+msg_begin	id=261	group=[none]	msg=[Clan name is incorrect]	msg_end
+msg_begin	id=262	group=[none]	msg=[Clan name's length is incorrect]	msg_end
+msg_begin	id=263	group=[none]	msg=[Dispersion has already been requested]	msg_end
+msg_begin	id=264	group=[none]	msg=[Cannot disperse clan in the middle of war]	msg_end
+msg_begin	id=265	group=[none]	msg=[Cannot disperse clan during siege or while protecting castle]	msg_end
+msg_begin	id=266	group=[none]	msg=[A clan that owns a hideout or castle cannot disperse]	msg_end
+msg_begin	id=267	group=[none]	msg=[No requests for dispersion]	msg_end
+msg_begin	id=268	group=[none]	msg=[You already belong to a (the) clan]	msg_end
+msg_begin	id=269	group=[none]	msg=[You cannot expel yourself]	msg_end
+msg_begin	id=270	group=[none]	msg=[You have already surrendered]	msg_end
+msg_begin	id=271	group=[none]	msg=[Title endowment is only possible when clan's skill levels are above 3]	msg_end
+msg_begin	id=272	group=[none]	msg=[Clan crest registration is only possible when clan's skill levels are above 3]	msg_end
+msg_begin	id=273	group=[none]	msg=[Proclamation of clan war is only possible when clan's skill levels are above 3]	msg_end
+msg_begin	id=274	group=[none]	msg=[Clan's skill level has increased]	msg_end
+msg_begin	id=275	group=[none]	msg=[Clan has failed to increase skill level]	msg_end
+msg_begin	id=276	group=[popup]	msg=[You do not have enough items to learn skills]	msg_end
+msg_begin	id=277	group=[popup]	msg=[You have earned $s1]	msg_end
+msg_begin	id=278	group=[popup]	msg=[You do not have enough SP to learn skills]	msg_end
+msg_begin	id=279	group=[popup]	msg=[You do not have enough adena]	msg_end
+msg_begin	id=280	group=[popup]	msg=[You do not have any items to sell]	msg_end
+msg_begin	id=281	group=[popup]	msg=[You do not have enough custody fees]	msg_end
+msg_begin	id=282	group=[popup]	msg=[There's nothing here that you've entrusted]	msg_end
+msg_begin	id=283	group=[siege]	msg=[Clan's skill level has increased]	msg_end
+msg_begin	id=284	group=[siege]	msg=[Clan has failed to increase skill level]	msg_end
+msg_begin	id=285	group=[siege]	msg=[Clan $s1 has succeeded in engraving the ruler!]	msg_end
+msg_begin	id=286	group=[siege]	msg=[Your base is being attacked]	msg_end
+msg_begin	id=287	group=[siege]	msg=[The opponent clan has begun to engrave the ruler]	msg_end
+msg_begin	id=288	group=[siege]	msg=[The castle gate has been broken down]	msg_end
+msg_begin	id=289	group=[siege]	msg=[You can only build one base during combat]	msg_end
+msg_begin	id=290	group=[siege]	msg=[You cannot set up a base here]	msg_end
+msg_begin	id=291	group=[siege]	msg=[Clan $s1 is victorious over $s2's castle siege!]	msg_end
+msg_begin	id=292	group=[siege]	msg=[$s1 has announced the castle siege time]	msg_end
+msg_begin	id=293	group=[siege]	msg=[The registration term for $s1 has ended]	msg_end
+msg_begin	id=294	group=[siege]	msg=[You cannot summon a base because you are not in battle]	msg_end
+msg_begin	id=295	group=[siege]	msg=[$s1's siege was canceled because there were no clans that participated]	msg_end
+msg_begin	id=296	group=[damage]	msg=[You received $s1 damage from taking a high fall]	msg_end
+msg_begin	id=297	group=[damage]	msg=[You received $s1 damage because you were unable to breathe]	msg_end
+msg_begin	id=298	group=[none]	msg=[YOU DROPPED ////////////// $s1]	msg_end
+msg_begin	id=299	group=[none]	msg=[$s1 picked up $s3 $s2]	msg_end
+msg_begin	id=300	group=[none]	msg=[$s1 picked up $s2]	msg_end
+msg_begin	id=301	group=[none]	msg=[$s2 $s1 has disappeared]	msg_end
+msg_begin	id=302	group=[none]	msg=[$s1 has disappeared]	msg_end
+msg_begin	id=303	group=[none]	msg=[Select item to enchant]	msg_end
+msg_begin	id=304	group=[none]	msg=[Clan member $s1 has logged into game]	msg_end
+msg_begin	id=305	group=[none]	msg=[The player declined to join your party]	msg_end
+msg_begin	id=306	group=[error]	msg=[You have failed to delete the character]	msg_end
+msg_begin	id=307	group=[error]	msg=[You have failed to trade with the warehouse]	msg_end
+msg_begin	id=308	group=[error]	msg=[Failed to join the clan]	msg_end
+msg_begin	id=309	group=[none]	msg=[Succeeded in expelling a clan member]	msg_end
+msg_begin	id=310	group=[error]	msg=[Failed to expel a clan member]	msg_end
+msg_begin	id=311	group=[none]	msg=[Clan war has been accepted]	msg_end
+msg_begin	id=312	group=[none]	msg=[Clan war has been refused]	msg_end
+msg_begin	id=313	group=[none]	msg=[The cease war request has been accepted]	msg_end
+msg_begin	id=314	group=[error]	msg=[Failed to surrender]	msg_end
+msg_begin	id=315	group=[error]	msg=[Ffailed to personally surrender]	msg_end
+msg_begin	id=316	group=[error]	msg=[Failed to withdraw from the party]	msg_end
+msg_begin	id=317	group=[error]	msg=[Failed to expel a party member]	msg_end
+msg_begin	id=318	group=[error]	msg=[Failed to disperse the party]	msg_end
+msg_begin	id=319	group=[none]	msg=[You are unable to unlock the door]	msg_end
+msg_begin	id=320	group=[none]	msg=[You have failed to unlock the door]	msg_end
+msg_begin	id=321	group=[none]	msg=[It is not locked]	msg_end
+msg_begin	id=322	group=[popup]	msg=[Please decide on the sales price]	msg_end
+msg_begin	id=323	group=[none]	msg=[Your force has increased to $s1 level]	msg_end
+msg_begin	id=324	group=[none]	msg=[You can no longer increase your force]	msg_end
+msg_begin	id=325	group=[none]	msg=[The corpse has already disappeared]	msg_end
+msg_begin	id=326	group=[popup]	msg=[Select target from list]	msg_end
+msg_begin	id=327	group=[popup]	msg=[You cannot exceed 80 characters]	msg_end
+msg_begin	id=328	group=[popup]	msg=[Please input title using less than 128 characters]	msg_end
+msg_begin	id=329	group=[popup]	msg=[Please input contents using less than 3000 characters]	msg_end
+msg_begin	id=330	group=[popup]	msg=[A one-line response may not exceed 128 characters]	msg_end
+msg_begin	id=331	group=[none]	msg=[You have acquired $s1 SP]	msg_end
+msg_begin	id=332	group=[none]	msg=[Do you want to be restored?]	msg_end
+msg_begin	id=333	group=[damage]	msg=[You have received $s1 damage by Core’s barrier]	msg_end
+msg_begin	id=334	group=[none]	msg=[Please enter store message]	msg_end
+msg_begin	id=335	group=[none]	msg=[$s1 is aborted]	msg_end
+msg_begin	id=336	group=[popup]	msg=[$s1 is crystallized Do you want to continue?]	msg_end
+msg_begin	id=337	group=[none]	msg=[Soulshot does not match weapon grade]	msg_end
+msg_begin	id=338	group=[none]	msg=[--------NO SHOTS--------]	msg_end
+msg_begin	id=339	group=[none]	msg=[Cannot use soulshots]	msg_end
+msg_begin	id=340	group=[none]	msg=[Private store under way]	msg_end
+msg_begin	id=341	group=[none]	msg=[--------NO MATERIALS--------]	msg_end
+msg_begin	id=342	group=[none]	msg=[]	msg_end
+msg_begin	id=343	group=[none]	msg=[XXXXX SWEEP FAILED XXXXX]	msg_end
+msg_begin	id=344	group=[none]	msg=[]	msg_end
+msg_begin	id=345	group=[none]	msg=[Chat enabled]	msg_end
+msg_begin	id=346	group=[none]	msg=[Chat disabled]	msg_end
+msg_begin	id=347	group=[error]	msg=[Incorrect item count]	msg_end
+msg_begin	id=348	group=[error]	msg=[Incorrect item price]	msg_end
+msg_begin	id=349	group=[none]	msg=[Private store already closed]	msg_end
+msg_begin	id=350	group=[none]	msg=[Item out of stock]	msg_end
+msg_begin	id=351	group=[none]	msg=[Incorrect item count]	msg_end
+msg_begin	id=352	group=[error]	msg=[Incorrect item]	msg_end
+msg_begin	id=353	group=[error]	msg=[Cannot purchase]	msg_end
+msg_begin	id=354	group=[none]	msg=[Cancel enchant]	msg_end
+msg_begin	id=355	group=[none]	msg=[Inappropriate enchant conditions]	msg_end
+msg_begin	id=356	group=[none]	msg=[Reject resurrection]	msg_end
+msg_begin	id=357	group=[none]	msg=[00000 SPOILED! 00000]	msg_end
+msg_begin	id=358	group=[none]	msg=[$s1 hour(s) until castle siege conclusion]	msg_end
+msg_begin	id=359	group=[none]	msg=[$s1 minute(s) until castle siege conclusion]	msg_end
+msg_begin	id=360	group=[none]	msg=[Castle siege $s1 second(s) left!]	msg_end
+msg_begin	id=361	group=[battle]	msg=[-------------> Overhit]	msg_end
+msg_begin	id=362	group=[none]	msg=[========================== $s1 overhit exp]	msg_end
+msg_begin	id=363	group=[none]	msg=[Chat available time: $s1 minute]	msg_end
+msg_begin	id=364	group=[none]	msg=[Enter user's name to search]	msg_end
+msg_begin	id=365	group=[none]	msg=[Are you sure?]	msg_end
+msg_begin	id=366	group=[none]	msg=[Select hair color]	msg_end
+msg_begin	id=367	group=[none]	msg=[Cannot remove clan character]	msg_end
+msg_begin	id=368	group=[none]	msg=[Equipped +$s1$s2]	msg_end
+msg_begin	id=369	group=[none]	msg=[++++++++++++++++++++ +$s1$s2]	msg_end
+msg_begin	id=370	group=[none]	msg=[Failed to pick up $s1]	msg_end
+msg_begin	id=371	group=[none]	msg=[++++++++++++++++++++ +$s1$s2]	msg_end
+msg_begin	id=372	group=[none]	msg=[Failed to earn $s1]	msg_end
+msg_begin	id=373	group=[popup]	msg=[Destroy +$s1$s2 Do you wish to continue?]	msg_end
+msg_begin	id=374	group=[popup]	msg=[Crystallize +$s1$s2 Do you wish to continue?]	msg_end
+msg_begin	id=375	group=[none]	msg=[YOU DROPPED ////////////// +$s1$s2]	msg_end
+msg_begin	id=376	group=[none]	msg=[$s1 picked up +$s2$s3]	msg_end
+msg_begin	id=377	group=[none]	msg=[+$s1$s2 disappeared]	msg_end
+msg_begin	id=378	group=[none]	msg=[$s1 purchased $s2]	msg_end
+msg_begin	id=379	group=[none]	msg=[$s1 purchased +$s2$s3]	msg_end
+msg_begin	id=380	group=[none]	msg=[$s1 purchased $s3 $s2(s)]	msg_end
+msg_begin	id=381	group=[petition]	msg=[Cannot connect to petition server]	msg_end
+msg_begin	id=382	group=[petition]	msg=[Currently there are no users that have checked out a GM ID]	msg_end
+msg_begin	id=383	group=[petition]	msg=[Request confirmed to end consultation at petition server ]	msg_end
+msg_begin	id=384	group=[petition]	msg=[The client is not logged onto the game server]	msg_end
+msg_begin	id=385	group=[petition]	msg=[Request confirmed to begin consultation at petition server]	msg_end
+msg_begin	id=386	group=[petition]	msg=[Petition requests must be over five characters]	msg_end
+msg_begin	id=387	group=[petition]	msg=[Ending petition consultation                                                                                ]	msg_end
+msg_begin	id=388	group=[petition]	msg=[Not under petition consultation]	msg_end
+msg_begin	id=389	group=[petition]	msg=[Petition application accepted Receipt No is $s1]	msg_end
+msg_begin	id=390	group=[petition]	msg=[Already applied for petition]	msg_end
+msg_begin	id=391	group=[petition]	msg=[Receipt No $s1, petition cancelled                                                                                ]	msg_end
+msg_begin	id=392	group=[petition]	msg=[Under petition advice]	msg_end
+msg_begin	id=393	group=[petition]	msg=[Failed to cancel petition Please try again later]	msg_end
+msg_begin	id=394	group=[petition]	msg=[Petition consultation with $s1, under way]	msg_end
+msg_begin	id=395	group=[petition]	msg=[Ending petition consultation with $s1                                                                                ]	msg_end
+msg_begin	id=396	group=[none]	msg=[Please login after changing your temporary password]	msg_end
+msg_begin	id=397	group=[none]	msg=[Not a paid account]	msg_end
+msg_begin	id=398	group=[none]	msg=[You have no more time left on your account]	msg_end
+msg_begin	id=399	group=[error]	msg=[System error]	msg_end
+msg_begin	id=400	group=[popup]	msg=[Discard $s1 Do you wish to continue?]	msg_end
+msg_begin	id=401	group=[popup]	msg=[Too many quests in progress ]	msg_end
+msg_begin	id=402	group=[none]	msg=[You may not get on board without a pass]	msg_end
+msg_begin	id=403	group=[none]	msg=[You have exceeded your pocket money limit]	msg_end
+msg_begin	id=404	group=[none]	msg=[Create Item level is low]	msg_end
+msg_begin	id=405	group=[none]	msg=[The total price of the product is too high]	msg_end
+msg_begin	id=406	group=[petition]	msg=[Petition application accepted]	msg_end
+msg_begin	id=407	group=[petition]	msg=[Petition under process]	msg_end
+msg_begin	id=408	group=[none]	msg=[Set Period]	msg_end
+msg_begin	id=409	group=[none]	msg=[Set Time-$s1: $s2: $s3]	msg_end
+msg_begin	id=410	group=[none]	msg=[Registration Period]	msg_end
+msg_begin	id=411	group=[none]	msg=[Registration TIme-$s1: $s2: $s3]	msg_end
+msg_begin	id=412	group=[none]	msg=[Battle begins in $s1: $s2: $s4]	msg_end
+msg_begin	id=413	group=[none]	msg=[Battle ends in $s1: $s2: $s5]	msg_end
+msg_begin	id=414	group=[none]	msg=[Standby]	msg_end
+msg_begin	id=415	group=[none]	msg=[Under Siege]	msg_end
+msg_begin	id=416	group=[none]	msg=[Cannot be exchanged]	msg_end
+msg_begin	id=417	group=[none]	msg=[$s1  has been disarmed]	msg_end
+msg_begin	id=418	group=[popup]	msg=[There is a significant difference between the item’s price and its standard price Please check again]	msg_end
+msg_begin	id=419	group=[none]	msg=[$s1 minute(s) of designated usage time left]	msg_end
+msg_begin	id=420	group=[none]	msg=[Time expired]	msg_end
+msg_begin	id=421	group=[none]	msg=[Another person has logged in with the same account]	msg_end
+msg_begin	id=422	group=[none]	msg=[You have exceeded the weight limit]	msg_end
+msg_begin	id=423	group=[none]	msg=[The Scroll of Enchant cannot be cancelled]	msg_end
+msg_begin	id=424	group=[none]	msg=[Does not fit strengthening conditions of the scroll]	msg_end
+msg_begin	id=425	group=[none]	msg=[Your Create Item level is too low]	msg_end
+msg_begin	id=426	group=[none]	msg=[Your account has been reported for intentionally not paying the cyber café fees]	msg_end
+msg_begin	id=427	group=[none]	msg=[Please contact us]	msg_end
+msg_begin	id=428	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=429	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=430	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=431	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=432	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=433	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=434	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=435	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=436	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=437	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=438	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=439	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=440	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=441	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=442	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=443	group=[none]	msg=[번역불필요]	msg_end
+msg_begin	id=444	group=[none]	msg=[The following account may not be accessed due to a withdrawal request that has been submitted ]	msg_end
+msg_begin	id=445	group=[none]	msg=[Your application number is  $s1 ]	msg_end
+msg_begin	id=446	group=[none]	msg=[For more details, please visit the official Lineage II website (http://wwwlineage2cokr/)]	msg_end
+msg_begin	id=447	group=[none]	msg=[]	msg_end
+msg_begin	id=448	group=[none]	msg=[System error, please log in again later]	msg_end
+msg_begin	id=449	group=[none]	msg=[Password does not match this acount]	msg_end
+msg_begin	id=450	group=[none]	msg=[Confirm your account information and log in again later]	msg_end
+msg_begin	id=451	group=[none]	msg=[Password does not match this acount]	msg_end
+msg_begin	id=452	group=[none]	msg=[Confirm your account information and try again later]	msg_end
+msg_begin	id=453	group=[none]	msg=[Your account information is incorrect]	msg_end
+msg_begin	id=454	group=[none]	msg=[Please contact the Customer Support Center or the 1: 1 inquiry service of the Lineage II official website ]	msg_end
+msg_begin	id=455	group=[none]	msg=[The account is already in use Access denied ]	msg_end
+msg_begin	id=456	group=[none]	msg=[Lineage II game services may only be used by adults 18 years of age and older ]	msg_end
+msg_begin	id=457	group=[none]	msg=[Server under maintenance Please try again later ]	msg_end
+msg_begin	id=458	group=[none]	msg=[Your usage term has been expired ]	msg_end
+msg_begin	id=459	group=[none]	msg=[Extend your usage time]	msg_end
+msg_begin	id=460	group=[none]	msg=[\at the official Lineage II website (http://wwwlineage2cokr)  ]	msg_end
+msg_begin	id=461	group=[none]	msg=[Access failed ]	msg_end
+msg_begin	id=462	group=[none]	msg=[Please try again later]	msg_end
+msg_begin	id=463	group=[none]	msg=[]	msg_end
+msg_begin	id=464	group=[none]	msg=[Feature available to alliance leaders only]	msg_end
+msg_begin	id=465	group=[none]	msg=[No current alliances]	msg_end
+msg_begin	id=466	group=[none]	msg=[You have exceeded the limit]	msg_end
+msg_begin	id=467	group=[none]	msg=[You may not accept any clan within a day after expelling another clan]	msg_end
+msg_begin	id=468	group=[none]	msg=[A clan that has withdrawn or been expelled cannot enter into an alliance within one day of withdrawal or expulsion]	msg_end
+msg_begin	id=469	group=[none]	msg=[You may not ally with a clan you are at battle with]	msg_end
+msg_begin	id=470	group=[none]	msg=[Only the clan leader may apply for withdrawal from the alliance]	msg_end
+msg_begin	id=471	group=[none]	msg=[Alliance leaders cannot withdraw]	msg_end
+msg_begin	id=472	group=[none]	msg=[You cannot expel yourself from the clan]	msg_end
+msg_begin	id=473	group=[none]	msg=[Different alliance]	msg_end
+msg_begin	id=474	group=[none]	msg=[The following clan does not exist]	msg_end
+msg_begin	id=475	group=[none]	msg=[Different alliance]	msg_end
+msg_begin	id=476	group=[none]	msg=[Incorrect image size Please adjust to 8x12]	msg_end
+msg_begin	id=477	group=[none]	msg=[No response Invitation to join an alliance has been cancelled]	msg_end
+msg_begin	id=478	group=[none]	msg=[No response Your entrance to the alliance has been cancelled]	msg_end
+msg_begin	id=479	group=[none]	msg=[$s1  has newly joined as a friend]	msg_end
+msg_begin	id=480	group=[none]	msg=[Please check your Friends List]	msg_end
+msg_begin	id=481	group=[none]	msg=[$s1  has been deleted from your friends list]	msg_end
+msg_begin	id=482	group=[none]	msg=[You cannot add yourself to your own friend list]	msg_end
+msg_begin	id=483	group=[none]	msg=[Friend list is not ready yet Please try again later]	msg_end
+msg_begin	id=484	group=[none]	msg=[Already registered on the friends list]	msg_end
+msg_begin	id=485	group=[none]	msg=[No new friend invitations from other users]	msg_end
+msg_begin	id=486	group=[none]	msg=[The following user is not in your friends list]	msg_end
+msg_begin	id=487	group=[none]	msg=[======<Friends List>======]	msg_end
+msg_begin	id=488	group=[none]	msg=[$s1 (Currently: Online)]	msg_end
+msg_begin	id=489	group=[none]	msg=[$s1 (Currently: Offline)]	msg_end
+msg_begin	id=490	group=[none]	msg=[========================]	msg_end
+msg_begin	id=491	group=[none]	msg=[=======<Alliance Information>=======]	msg_end
+msg_begin	id=492	group=[none]	msg=[Alliance Name: $s1]	msg_end
+msg_begin	id=493	group=[none]	msg=[Connection: $s1 / Total $s2]	msg_end
+msg_begin	id=494	group=[none]	msg=[Alliance Leader: $s2 of $s1]	msg_end
+msg_begin	id=495	group=[none]	msg=[Affiliated clans: Total $s1 clan(s)]	msg_end
+msg_begin	id=496	group=[none]	msg=[=====<Clan Information>=====]	msg_end
+msg_begin	id=497	group=[none]	msg=[Clan Name: $s1]	msg_end
+msg_begin	id=498	group=[none]	msg=[Clan Leader:  $s1]	msg_end
+msg_begin	id=499	group=[none]	msg=[Clan level: $s1]	msg_end
+msg_begin	id=500	group=[none]	msg=[------------------------]	msg_end
+msg_begin	id=501	group=[none]	msg=[========================]	msg_end
+msg_begin	id=502	group=[none]	msg=[You have already joined an alliance]	msg_end
+msg_begin	id=503	group=[none]	msg=[$s1 (Friend) has logged in]	msg_end
+msg_begin	id=504	group=[none]	msg=[Only clan leaders may create alliances]	msg_end
+msg_begin	id=505	group=[none]	msg=[You cannot create a new alliance within 10 days after dissolution ]	msg_end
+msg_begin	id=506	group=[none]	msg=[Incorrect alliance name]	msg_end
+msg_begin	id=507	group=[none]	msg=[Incorrect length for an alliance name]	msg_end
+msg_begin	id=508	group=[none]	msg=[The following alliance already exists]	msg_end
+msg_begin	id=509	group=[none]	msg=[Cannot accept clan ally is registered as an enemy during siege battle]	msg_end
+msg_begin	id=510	group=[none]	msg=[You have invited someone to your alliance]	msg_end
+msg_begin	id=511	group=[none]	msg=[Select user to invite]	msg_end
+msg_begin	id=512	group=[none]	msg=[Do you really wish to withdraw from the alliance?]	msg_end
+msg_begin	id=513	group=[none]	msg=[Enter the name of the clan you wish to expel]	msg_end
+msg_begin	id=514	group=[none]	msg=[Do you really wish to dissolve the alliance?]	msg_end
+msg_begin	id=515	group=[none]	msg=[Enter file name for the alliance crest]	msg_end
+msg_begin	id=516	group=[none]	msg=[$s1 has invited you as a Friend]	msg_end
+msg_begin	id=517	group=[none]	msg=[You have accepted the alliance]	msg_end
+msg_begin	id=518	group=[none]	msg=[You have failed to invite a clan into the alliance]	msg_end
+msg_begin	id=519	group=[none]	msg=[You have withdrawn from the alliance]	msg_end
+msg_begin	id=520	group=[none]	msg=[You have failed to withdraw from the alliance]	msg_end
+msg_begin	id=521	group=[none]	msg=[You have succeeded in expelling a clan]	msg_end
+msg_begin	id=522	group=[none]	msg=[You have failed to expel a clan]	msg_end
+msg_begin	id=523	group=[none]	msg=[The alliance has dissolved]	msg_end
+msg_begin	id=524	group=[none]	msg=[You have failed to dissolve the alliance]	msg_end
+msg_begin	id=525	group=[none]	msg=[You have succeeded in inviting a Friend]	msg_end
+msg_begin	id=526	group=[none]	msg=[You have failed to invite a Friend]	msg_end
+msg_begin	id=527	group=[none]	msg=[$s2, the alliance leader of $s1 has requested an alliance]	msg_end
+msg_begin	id=528	group=[none]	msg=[File not found]	msg_end
+msg_begin	id=529	group=[none]	msg=[You may only register 8x12 *bmp files with 256 colors]	msg_end
+msg_begin	id=530	group=[none]	msg=[Spiritshot does not match weapon grade]	msg_end
+msg_begin	id=531	group=[none]	msg=[Not enough Spiritshots]	msg_end
+msg_begin	id=532	group=[none]	msg=[Cannot use Spiritshots]	msg_end
+msg_begin	id=533	group=[none]	msg=[]	msg_end
+msg_begin	id=534	group=[none]	msg=[]	msg_end
+msg_begin	id=535	group=[none]	msg=[Name pet]	msg_end
+msg_begin	id=536	group=[none]	msg=[How much adena do you wish to transfer to your Inventory?]	msg_end
+msg_begin	id=537	group=[none]	msg=[How much will you transfer?]	msg_end
+msg_begin	id=538	group=[none]	msg=[SP has decreased by $s1]	msg_end
+msg_begin	id=539	group=[none]	msg=[Experience has decreased by $s1]	msg_end
+msg_begin	id=540	group=[none]	msg=[Clan leaders cannot be deleted DD Dissolve the clan and try again]	msg_end
+msg_begin	id=541	group=[none]	msg=[You cannot delete a clan member Withdraw from the clan and try again]	msg_end
+msg_begin	id=542	group=[none]	msg=[NPC server not operating Pets cannot be summoned]	msg_end
+msg_begin	id=543	group=[none]	msg=[You already have a pet]	msg_end
+msg_begin	id=544	group=[none]	msg=[Item not available for pets]	msg_end
+msg_begin	id=545	group=[none]	msg=[Exceeded pet inventory's volume limit ]	msg_end
+msg_begin	id=546	group=[none]	msg=[Exceeded pet inventory's weight limit]	msg_end
+msg_begin	id=547	group=[none]	msg=[Summon a pet]	msg_end
+msg_begin	id=548	group=[none]	msg=[Your pet’s name can be up to 8 characters]	msg_end
+msg_begin	id=549	group=[none]	msg=[To create an alliance, your clan must be Level 5 or higher]	msg_end
+msg_begin	id=550	group=[none]	msg=[You cannot create an alliance during the term of dissolution postponement]	msg_end
+msg_begin	id=551	group=[none]	msg=[You cannot raise your clan level during the term of dispersion postponement]	msg_end
+msg_begin	id=552	group=[none]	msg=[You cannot register a clan crest during the term of dispersion postponement]	msg_end
+msg_begin	id=553	group=[none]	msg=[The opposing clan has applied for dispersion]	msg_end
+msg_begin	id=554	group=[none]	msg=[You cannot disperse the clans in your alliance]	msg_end
+msg_begin	id=555	group=[none]	msg=[You cannot move Your item weight is too great ]	msg_end
+msg_begin	id=556	group=[none]	msg=[You cannot move in this state]	msg_end
+msg_begin	id=557	group=[none]	msg=[The pet has been summoned and cannot be deleted]	msg_end
+msg_begin	id=558	group=[none]	msg=[The pet has been summoned and cannot be let go]	msg_end
+msg_begin	id=559	group=[none]	msg=[Purchased $s2 from $s1]	msg_end
+msg_begin	id=560	group=[none]	msg=[Purchased +$s2$s3 from $s1 ]	msg_end
+msg_begin	id=561	group=[none]	msg=[Purchased $s3 $s2(s) from $s1 ]	msg_end
+msg_begin	id=562	group=[none]	msg=[Cannot crystallize Crystallization skill level too low]	msg_end
+msg_begin	id=563	group=[none]	msg=[Failed to disable attack target ]	msg_end
+msg_begin	id=564	group=[none]	msg=[Failed to change attack target ]	msg_end
+msg_begin	id=565	group=[none]	msg=[Not enough luck ]	msg_end
+msg_begin	id=566	group=[none]	msg=[Confusion failed ]	msg_end
+msg_begin	id=567	group=[none]	msg=[Fear failed ]	msg_end
+msg_begin	id=568	group=[none]	msg=[Cubic Summoning failed ]	msg_end
+msg_begin	id=569	group=[none]	msg=[Caution--the item price greatly differs from the shop’s standard price Do you wish to continue?]	msg_end
+msg_begin	id=570	group=[none]	msg=[How many  $s1 (s) do you wish to purchase?]	msg_end
+msg_begin	id=571	group=[none]	msg=[How many  $s1 (s) do you want to purchase?]	msg_end
+msg_begin	id=572	group=[none]	msg=[Do you wish to consent to $s1’s party invitation?  (Item distribution: possession of the looter)]	msg_end
+msg_begin	id=573	group=[none]	msg=[Do you wish to consent to $s1’s party invitation? (Item distribution: random distribution to party members)]	msg_end
+msg_begin	id=574	group=[none]	msg=[No servitors or pets available]	msg_end
+msg_begin	id=575	group=[none]	msg=[How much adena do you wish to transfer to your pet?]	msg_end
+msg_begin	id=576	group=[none]	msg=[How much do you wish to transfer?]	msg_end
+msg_begin	id=577	group=[none]	msg=[You cannot summon during a trade or while using the private shops]	msg_end
+msg_begin	id=578	group=[none]	msg=[You cannot summon during combat]	msg_end
+msg_begin	id=579	group=[none]	msg=[A pet cannot be sent back during battle]	msg_end
+msg_begin	id=580	group=[none]	msg=[You may not use multiple pets or servitors at the same time]	msg_end
+msg_begin	id=581	group=[none]	msg=[There is a space in the name]	msg_end
+msg_begin	id=582	group=[none]	msg=[Inappropriate character name]	msg_end
+msg_begin	id=583	group=[none]	msg=[Name includes forbidden words]	msg_end
+msg_begin	id=584	group=[none]	msg=[Already in use by another pet]	msg_end
+msg_begin	id=585	group=[none]	msg=[Please decide on the price]	msg_end
+msg_begin	id=586	group=[none]	msg=[Pet items cannot be registered as shortcuts]	msg_end
+msg_begin	id=587	group=[none]	msg=[Irregular system speed]	msg_end
+msg_begin	id=588	group=[none]	msg=[Pet inventory is full]	msg_end
+msg_begin	id=589	group=[none]	msg=[A dead pet cannot be sent back]	msg_end
+msg_begin	id=590	group=[none]	msg=[Cannot give items to a dead pet]	msg_end
+msg_begin	id=591	group=[none]	msg=[An invalid character is included in the pet’s name]	msg_end
+msg_begin	id=592	group=[none]	msg=[Do you wish to dismiss your pet? Dismissing your pet will cause the pet necklace to disappear]	msg_end
+msg_begin	id=593	group=[none]	msg=[Your pet has left due to unbearable hunger ]	msg_end
+msg_begin	id=594	group=[none]	msg=[You cannot restore hungry pets]	msg_end
+msg_begin	id=595	group=[none]	msg=[Your pet is very hungry]	msg_end
+msg_begin	id=596	group=[none]	msg=[Your pet ate a little, but is still hungry]	msg_end
+msg_begin	id=597	group=[none]	msg=[Your pet is very hungry Please be careful]	msg_end
+msg_begin	id=598	group=[none]	msg=[You cannot chat while you are invisible]	msg_end
+msg_begin	id=599	group=[none]	msg=[The GM has an important notice Chat is temporarily aborted]	msg_end
+msg_begin	id=600	group=[none]	msg=[You cannot equip a pet item]	msg_end
+msg_begin	id=601	group=[petition]	msg=[There are $s1 petitions pending]	msg_end
+msg_begin	id=602	group=[petition]	msg=[The petition system is currently unavailable Please try again later]	msg_end
+msg_begin	id=603	group=[none]	msg=[That item cannot be discarded or exchanged]	msg_end
+msg_begin	id=604	group=[none]	msg=[You may not call forth a pet or summoned creature from this location]	msg_end
+msg_begin	id=605	group=[none]	msg=[You may register up to 64 people on your list]	msg_end
+msg_begin	id=606	group=[none]	msg=[You cannot be registered because the other person has already registered 64 people on his/her list]	msg_end
+msg_begin	id=607	group=[popup]	msg=[You do not have any further skills to learn  Come back when you have reached Level $s1]	msg_end
+msg_begin	id=608	group=[none]	msg=[$s1  obtained $s3 $s2(s) by using Search]	msg_end
+msg_begin	id=609	group=[none]	msg=[$s1  obtained $s2 by using Search]	msg_end
+msg_begin	id=610	group=[none]	msg=[Your skill has been cancelled due to lack of HP]	msg_end
+msg_begin	id=611	group=[none]	msg=[You have succeeded in Confusing the enemy]	msg_end
+msg_begin	id=612	group=[none]	msg=[SPOILED]	msg_end
+msg_begin	id=613	group=[none]	msg=[======<Ignore List>======]	msg_end
+msg_begin	id=614	group=[none]	msg=[$s1 $s2]	msg_end
+msg_begin	id=615	group=[none]	msg=[You have failed to register the user to your Ignore List]	msg_end
+msg_begin	id=616	group=[none]	msg=[You have failed to delete the character]	msg_end
+msg_begin	id=617	group=[none]	msg=[You have registered $s1  to your Ignore List]	msg_end
+msg_begin	id=618	group=[none]	msg=[You have removed $s1  from your Ignore List]	msg_end
+msg_begin	id=619	group=[none]	msg=[$s1  has placed you on his/her Ignore List]	msg_end
+msg_begin	id=620	group=[none]	msg=[$s1  has placed you on his/her Ignore List]	msg_end
+msg_begin	id=621	group=[none]	msg=[This server is reserved for players in Korea  To use Lineage II game services, please connect to the server in your region ]	msg_end
+msg_begin	id=622	group=[none]	msg=[You may not make a declaration of war during an alliance battle]	msg_end
+msg_begin	id=623	group=[none]	msg=[Your opponent has exceeded the number of simultaneous alliance battles allowed]	msg_end
+msg_begin	id=624	group=[none]	msg=[$s1 Clan leader is not currently connected to the game server]	msg_end
+msg_begin	id=625	group=[none]	msg=[Your request for Alliance Battle truce has been denied]	msg_end
+msg_begin	id=626	group=[none]	msg=[The $s1 clan did not respond: war proclamation has been refused]	msg_end
+msg_begin	id=627	group=[none]	msg=[Clan battle has been refused because you did not respond to $s1 clan’s war proclamation]	msg_end
+msg_begin	id=628	group=[none]	msg=[You have already been at war with the $s1 clan: 5 days must pass before you can declare war again]	msg_end
+msg_begin	id=629	group=[none]	msg=[Your opponent has exceeded the number of simultaneous alliance battles allowed]	msg_end
+msg_begin	id=630	group=[popup]	msg=[War with the $s1 clan has begun]	msg_end
+msg_begin	id=631	group=[popup]	msg=[War with the $s1 clan is over]	msg_end
+msg_begin	id=632	group=[popup]	msg=[You have won the war over the $s1 clan!]	msg_end
+msg_begin	id=633	group=[popup]	msg=[You have surrendered to the $s1 clan]	msg_end
+msg_begin	id=634	group=[popup]	msg=[Your alliance leader has been slain You have been defeated by the $s1 clan]	msg_end
+msg_begin	id=635	group=[popup]	msg=[The time limit for the clan war has been exceeded War with the $s1 clan is over]	msg_end
+msg_begin	id=636	group=[none]	msg=[Not involved in clan war]	msg_end
+msg_begin	id=637	group=[none]	msg=[A clan ally has registered itself to the opponent]	msg_end
+msg_begin	id=638	group=[none]	msg=[You have already requested a Siege Battle]	msg_end
+msg_begin	id=639	group=[none]	msg=[Your application has been denied because you have already submitted a request for another Siege Battle]	msg_end
+msg_begin	id=640	group=[error]	msg=[You have failed to refuse castle defense aid]	msg_end
+msg_begin	id=641	group=[error]	msg=[You have failed to approve castle defense aid]	msg_end
+msg_begin	id=642	group=[none]	msg=[You are already registered to the attacker side and must cancel your registration before submitting your request ]	msg_end
+msg_begin	id=643	group=[none]	msg=[You have already registered to the defender side and must cancel your registration before submitting your request]	msg_end
+msg_begin	id=644	group=[none]	msg=[You are not yet registered for the castle siege]	msg_end
+msg_begin	id=645	group=[none]	msg=[Only clans with Level 4 and higher may register for a castle siege]	msg_end
+msg_begin	id=646	group=[error]	msg=[You do not have the authority to modify the castle defender list]	msg_end
+msg_begin	id=647	group=[error]	msg=[You do not have the authority to modify the siege time]	msg_end
+msg_begin	id=648	group=[none]	msg=[No more registrations may be accepted for the attacker side]	msg_end
+msg_begin	id=649	group=[none]	msg=[No more registrations may be accepted for the defender side]	msg_end
+msg_begin	id=650	group=[none]	msg=[You may not summon from your current location]	msg_end
+msg_begin	id=651	group=[popup]	msg=[Place $s1  in the current location and direction Do you wish to continue?]	msg_end
+msg_begin	id=652	group=[none]	msg=[The target of the summoned monster is wrong]	msg_end
+msg_begin	id=653	group=[none]	msg=[You do not have the authority to position mercenaries]	msg_end
+msg_begin	id=654	group=[none]	msg=[You do not have the authority to cancel mercenary positioning]	msg_end
+msg_begin	id=655	group=[none]	msg=[This is not the castle to which it is affiliated and so the mercenary cannot be positioned]	msg_end
+msg_begin	id=656	group=[none]	msg=[This mercenary cannot be positioned anymore]	msg_end
+msg_begin	id=657	group=[none]	msg=[Positioning cannot be done here because the distance between mercenaries is too short]	msg_end
+msg_begin	id=658	group=[none]	msg=[This is not a mercenary of a castle that you own and so you cannot cancel its positioning]	msg_end
+msg_begin	id=659	group=[none]	msg=[This is not the time for siege registration and so registrations cannot be accepted or rejected]	msg_end
+msg_begin	id=660	group=[none]	msg=[This is not the time for siege registration and so registration and cancellation cannot be done]	msg_end
+msg_begin	id=661	group=[none]	msg=[It is a character that cannot be spoiled]	msg_end
+msg_begin	id=662	group=[none]	msg=[The other player is rejecting friend invitations]	msg_end
+msg_begin	id=663	group=[popup]	msg=[The siege time has been declared for $s It is not possible to change the time after a siege time has been declared Do you want to continue?]	msg_end
+msg_begin	id=664	group=[popup]	msg=[Please choose a person to receive]	msg_end
+msg_begin	id=665	group=[popup]	msg=[$s2% of $s1 alliance is applying for alliance war Do you want to accept the challenge?]	msg_end
+msg_begin	id=666	group=[popup]	msg=[A request for ceasefire has been received from $s1 alliance Do you want to agree to the cease-fire?]	msg_end
+msg_begin	id=667	group=[popup]	msg=[You are registering on the attacking side of the $s1 siege Do you want to continue?]	msg_end
+msg_begin	id=668	group=[popup]	msg=[You are registering on the defending side of the $s1 siege Do you want to continue?]	msg_end
+msg_begin	id=669	group=[popup]	msg=[You are canceling your application to participate in the $s1 siege battle Do you want to continue?]	msg_end
+msg_begin	id=670	group=[popup]	msg=[You are refusing the registration of $s1 clan on the defending side Do you want to continue?]	msg_end
+msg_begin	id=671	group=[popup]	msg=[You are agreeing to the registration of $s1 clan on the defending side Do you want to continue?]	msg_end
+msg_begin	id=672	group=[none]	msg=[$s1 adena disappeared]	msg_end
+msg_begin	id=673	group=[popup]	msg=[You do not have the authority to participate in an auction]	msg_end
+msg_begin	id=674	group=[popup]	msg=[It has not yet been seven days since canceling an auction]	msg_end
+msg_begin	id=675	group=[popup]	msg=[There are no clan halls up for auction]	msg_end
+msg_begin	id=676	group=[popup]	msg=[You have already submitted a bid]	msg_end
+msg_begin	id=677	group=[popup]	msg=[Your bid price must be higher than the minimum price that can be bid]	msg_end
+msg_begin	id=678	group=[popup]	msg=[You have submitted a bid in the auction of $s1]	msg_end
+msg_begin	id=679	group=[popup]	msg=[You have canceled your bid]	msg_end
+msg_begin	id=680	group=[error]	msg=[You cannot participate in an auction]	msg_end
+msg_begin	id=681	group=[error]	msg=[The clan does not own a clan hall]	msg_end
+msg_begin	id=682	group=[popup]	msg=[You are moving to another village Do you want to continue?]	msg_end
+msg_begin	id=683	group=[none]	msg=[There are no priority rights on a sweeper]	msg_end
+msg_begin	id=684	group=[none]	msg=[You cannot position mercenaries during a siege]	msg_end
+msg_begin	id=685	group=[none]	msg=[You cannot apply for clan war with a clan that belongs to the same alliance]	msg_end
+msg_begin	id=686	group=[none]	msg=[You have received $s1 damage from the fire of magic]	msg_end
+msg_begin	id=687	group=[none]	msg=[You cannot move in a frozen state Please wait a moment]	msg_end
+msg_begin	id=688	group=[none]	msg=[The clan that owns the castle is automatically registered on the defending side]	msg_end
+msg_begin	id=689	group=[none]	msg=[A clan that owns a castle cannot participate in another siege]	msg_end
+msg_begin	id=690	group=[none]	msg=[You cannot register on the attacking side because you are part of an alliance with the clan that owns the castle]	msg_end
+msg_begin	id=691	group=[none]	msg=[$s1 clan is already a member of $s2 alliance]	msg_end
+msg_begin	id=692	group=[none]	msg=[The other party is frozen Please wait a moment]	msg_end
+msg_begin	id=693	group=[none]	msg=[The package that arrived is in another warehouse]	msg_end
+msg_begin	id=694	group=[none]	msg=[No packages have arrived]	msg_end
+msg_begin	id=695	group=[error]	msg=[You cannot set the name of the pet]	msg_end
+msg_begin	id=696	group=[popup]	msg=[Your account is restricted for not paying your PC room usage fees]	msg_end
+msg_begin	id=697	group=[none]	msg=[The item enchant value is strange]	msg_end
+msg_begin	id=698	group=[popup]	msg=[The price is different than the same item on the sales list]	msg_end
+msg_begin	id=699	group=[none]	msg=[Currently not purchasing]	msg_end
+msg_begin	id=700	group=[none]	msg=[The purchase is complete]	msg_end
+msg_begin	id=701	group=[popup]	msg=[You do not have enough required items]	msg_end
+msg_begin	id=702	group=[none]	msg=[There are not any GMs that are providing customer service currently]	msg_end
+msg_begin	id=703	group=[none]	msg=[======<GM List>======]	msg_end
+msg_begin	id=704	group=[none]	msg=[GM : $s1]	msg_end
+msg_begin	id=705	group=[none]	msg=[You cannot exclude yourself]	msg_end
+msg_begin	id=706	group=[none]	msg=[You can only register up to 64 names on your exclude list]	msg_end
+msg_begin	id=707	group=[none]	msg=[You cannot teleport to a village that is in a siege]	msg_end
+msg_begin	id=708	group=[none]	msg=[You do not have the right to use the castle warehouse]	msg_end
+msg_begin	id=709	group=[none]	msg=[You do not have the right to use the clan warehouse]	msg_end
+msg_begin	id=710	group=[none]	msg=[Only clans of clan level 1 or higher can use a clan warehouse]	msg_end
+msg_begin	id=711	group=[none]	msg=[The siege of $s1 has started]	msg_end
+msg_begin	id=712	group=[none]	msg=[The siege of $s1 has finished]	msg_end
+msg_begin	id=713	group=[none]	msg=[$s1/$s2/$s3 $s4:$s5]	msg_end
+msg_begin	id=714	group=[none]	msg=[A trap device has tripped]	msg_end
+msg_begin	id=715	group=[none]	msg=[The trap device has stopped]	msg_end
+msg_begin	id=716	group=[none]	msg=[The base camp has been destroyed and resurrection is not possible]	msg_end
+msg_begin	id=717	group=[none]	msg=[The guardian tower has been destroyed and resurrection is not possible]	msg_end
+msg_begin	id=718	group=[none]	msg=[The castle gates cannot be opened and closed during a siege]	msg_end
+msg_begin	id=719	group=[none]	msg=[You failed at item mixing]	msg_end
+msg_begin	id=720	group=[popup]	msg=[The purchase price is higher than the amount of money that you have and so you cannot open a personal store]	msg_end
+msg_begin	id=721	group=[none]	msg=[You cannot create an alliance while participating in a siege]	msg_end
+msg_begin	id=722	group=[none]	msg=[You cannot dissolve an alliance while an affiliated clan is participating in a siege battle]	msg_end
+msg_begin	id=723	group=[none]	msg=[The opposing clan is participating in a siege battle]	msg_end
+msg_begin	id=724	group=[none]	msg=[You cannot leave while participating in a siege battle]	msg_end
+msg_begin	id=725	group=[none]	msg=[You cannot banish a clan from an alliance while the clan is participating in a siege]	msg_end
+msg_begin	id=726	group=[popup]	msg=[The frozen condition has started Please wait a moment]	msg_end
+msg_begin	id=727	group=[popup]	msg=[The frozen condition was removed]	msg_end
+msg_begin	id=728	group=[none]	msg=[You cannot apply for dissolution again within seven days after a previous application for dissolution]	msg_end
+msg_begin	id=729	group=[none]	msg=[That item cannot be discarded]	msg_end
+msg_begin	id=730	group=[petition]	msg=[You have submitted $s1 petitions You may submit $s2 more petitions today]	msg_end
+msg_begin	id=731	group=[petition]	msg=[A petition has been received by the GM on behalf of $s1 It is petition #$s2]	msg_end
+msg_begin	id=732	group=[petition]	msg=[$s1 has received a request for a consultation with the GM]	msg_end
+msg_begin	id=733	group=[petition]	msg=[We have received $s1 petitions from you today and that is the maximum that you can submit in one day You cannot submit any more petitions]	msg_end
+msg_begin	id=734	group=[petition]	msg=[You failed at submitting a petition on behalf of someone else $s1 already submitted a petition]	msg_end
+msg_begin	id=735	group=[petition]	msg=[You failed at submitting a petition on behalf of $s1 The error is #$s2]	msg_end
+msg_begin	id=736	group=[petition]	msg=[The petition was canceled You may submit $s1 more petitions today]	msg_end
+msg_begin	id=737	group=[petition]	msg=[You failed at submitting a petition on behalf of $s1]	msg_end
+msg_begin	id=738	group=[petition]	msg=[You have not submitted a petition]	msg_end
+msg_begin	id=739	group=[petition]	msg=[You failed at canceling a petition on behalf of $s1 The error code is $s2]	msg_end
+msg_begin	id=740	group=[petition]	msg=[$s1 participated in a petition chat at the request of the GM]	msg_end
+msg_begin	id=741	group=[petition]	msg=[You failed at adding $s1 to the petition chat A petition has already been submitted]	msg_end
+msg_begin	id=742	group=[petition]	msg=[You failed at adding $s1 to the petition chat The error code is $s2]	msg_end
+msg_begin	id=743	group=[petition]	msg=[$s1 left the petition chat]	msg_end
+msg_begin	id=744	group=[petition]	msg=[You failed at removing $s1 from the petition chat The error code is $s2]	msg_end
+msg_begin	id=745	group=[petition]	msg=[You are currently not in a petition chat]	msg_end
+msg_begin	id=746	group=[petition]	msg=[It is not currently a petition]	msg_end
+msg_begin	id=747	group=[petition]	msg=[If you need help, please use 1:1 Inquiry on the official web site]	msg_end
+msg_begin	id=748	group=[none]	msg=[The distance is too far and so the casting has been stopped]	msg_end
+msg_begin	id=749	group=[none]	msg=[The effect of $s1 has been removed]	msg_end
+msg_begin	id=750	group=[popup]	msg=[There are no other skills to learn]	msg_end
+msg_begin	id=751	group=[none]	msg=[As there is a conflict in the siege relationship with a clan in the alliance, you cannot invite that clan to the alliance]	msg_end
+msg_begin	id=752	group=[popup]	msg=[That name cannot be used]	msg_end
+msg_begin	id=753	group=[none]	msg=[You cannot position mercenaries here]	msg_end
+msg_begin	id=754	group=[none]	msg=[There are $s1 hours and $s2 minutes left in this week’s usage time]	msg_end
+msg_begin	id=755	group=[none]	msg=[There are $s1 minutes left in this week’s usage time]	msg_end
+msg_begin	id=756	group=[popup]	msg=[This week’s usage time has finished]	msg_end
+msg_begin	id=757	group=[none]	msg=[There are $s1 hours and $s2 minutes left in the fixed use time]	msg_end
+msg_begin	id=758	group=[none]	msg=[There are $s1 minutes left in this week’s play time]	msg_end
+msg_begin	id=759	group=[none]	msg=[There are $s1 minutes left in this week’s play time]	msg_end
+msg_begin	id=760	group=[none]	msg=[$s1% cannot join the clan because five days have not yet passed since he/she left another clan]	msg_end
+msg_begin	id=761	group=[none]	msg=[$s1% clan cannot join the alliance because one day has not yet passed since it left another alliance]	msg_end
+msg_begin	id=762	group=[none]	msg=[$s1% rolled $s2% and $s3’s eye came out]	msg_end
+msg_begin	id=763	group=[none]	msg=[You failed at sending the package because you are too far from the warehouse]	msg_end
+msg_begin	id=764	group=[none]	msg=[You have played for $s1 hours For your health, take a rest before playing again]	msg_end
+msg_begin	id=765	group=[popup]	msg=[GameGuard is already running Please try running it again after rebooting]	msg_end
+msg_begin	id=766	group=[popup]	msg=[There is a GameGuard initialization error Please try running it again after rebooting]	msg_end
+msg_begin	id=767	group=[popup]	msg=[The GameGuard file is damaged  Please reinstall GameGuard]	msg_end
+msg_begin	id=768	group=[popup]	msg=[A Windows system file is damaged Please reinstall Internet Explorer]	msg_end
+msg_begin	id=769	group=[popup]	msg=[A hacking tool has been discovered Please try playing again after closing unnecessary programs]	msg_end
+msg_begin	id=770	group=[popup]	msg=[The GameGuard update was canceled Please check your network connection status or firewall]	msg_end
+msg_begin	id=771	group=[popup]	msg=[The GameGuard update was canceled Please try running it again after doing a virus scan or changing the settings in your PC management program]	msg_end
+msg_begin	id=772	group=[popup]	msg=[There was a problem when running GameGuard]	msg_end
+msg_begin	id=773	group=[popup]	msg=[The game or GameGuard files are damaged]	msg_end
+msg_begin	id=774	group=[none]	msg=[Since this is a peace zone, play time does not get expended here]	msg_end
+msg_begin	id=775	group=[none]	msg=[From here on, play time will be expended]	msg_end
+msg_begin	id=776	group=[popup]	msg=[The clan hall which was put up for auction has been awarded to $s1 clan]	msg_end
+msg_begin	id=777	group=[popup]	msg=[The clan hall which had been put up for auction was not sold and therefore has been re-listed]	msg_end
