@@ -2,6 +2,9 @@
 Public SystemMsg-e for Elmorelab c1
 -----------------------------------------
 
+Download SystemMsg-e
+https://github.com/elmoreplay/SystemMsg-e-c1/raw/main/SystemMsg-e.txt
+
 Download zip archive
 https://github.com/elmoreplay/SystemMsg-e-c1/archive/refs/heads/main.zip
 
