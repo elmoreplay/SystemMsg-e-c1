@@ -6,7 +6,7 @@ l2decrypt.exe - files decrypt tool
 
 SystemMsg-e.decoded.txt - decoded SystemMsg-e source file to view and edit
 
-\system\SystemMsg-e.txt - ready for use system chat file. Put it to Lineage 2 c1 System folder
+SystemMsg-e.txt - ready for use system chat file. Put it to Lineage 2 c1 System folder
 
 -----------------------------------------
 
