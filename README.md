@@ -2,6 +2,9 @@
 Public SystemMsg-e for Elmorelab c1
 -----------------------------------------
 
+Download zip archive
+https://github.com/elmoreplay/SystemMsg-e-c1/archive/refs/heads/main.zip
+
 l2decrypt.exe - files decrypt tool
 
 SystemMsg-e.decoded.txt - decoded SystemMsg-e source file to view and edit
